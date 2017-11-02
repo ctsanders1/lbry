@@ -23,7 +23,7 @@ at anytime.
 
 ### Changed
   * Moved BLOB_SIZE from conf.py to MAX_BLOB_SIZE in blob/blob_file.py
-  *
+  * API commands file_list, file_delete, and file_reflect no longer deals with claim information
 
 ### Added
   * Added `utxo_list` command to list unspent transaction outputs
@@ -33,7 +33,6 @@ at anytime.
 ### Removed
   * Removed some alternate methods of reading from blob files
   *
-
 
 ## [0.17.1] - 2017-10-25
 ### Fixed
